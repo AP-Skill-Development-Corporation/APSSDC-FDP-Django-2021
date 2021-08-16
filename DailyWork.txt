@@ -1,0 +1,23 @@
+Good Morning All:
+-----------------
+python oops:
+	- class
+		- it is collection of variables and methods.
+		syntax:
+		class class_name:
+			variables
+			methods
+	- objects
+		- it is a instance of a class
+		syntax: objname = className
+	- constructor
+		- without using object we can call a constructor method
+		- while creating object the constructor method will be call
+		- in python we have a default constructor method i.e, "__init__"
+		- for this constructor methods we have to pass a fixed parameter i.e "self" as a first.
+		- 2 types of constructors are available in python
+			- default 
+			- parameterized 
+	- inheritance
+	
+	- packages
