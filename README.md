@@ -1,1 +1,1 @@
-# APSSDC-FDP-Django-2021-
+# APSSDC-FDP-Django-2021
