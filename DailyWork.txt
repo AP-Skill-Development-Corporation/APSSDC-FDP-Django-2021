@@ -18,6 +18,39 @@ python oops:
 		- 2 types of constructors are available in python
 			- default 
 			- parameterized 
+
 	- inheritance
 	
 	- packages
+
+Please rename your name in the format i.e., name-collegecode if renamed try to ignore this message
+
+Good Morning All:
+-----------------
+
+- packages and modules:
+
+		- Package:
+			- it is a folder
+			- it is collection of modules.
+		- Module:
+			- it is python file
+			- it includes fuctions and classes.
+		types of packages and modules:
+
+			- default modules
+			- userdefined modules
+
+- task1: create a folder with name of 'package' in that folder
+	create a module withname of Calci, there create a class with 'Arith'
+	in that define few methods to return add,sub,mul,div etc...
+
+- Inheritance:
+	- diriving properties from super class to sub class.
+	- types:
+		- singlelevel
+		
+		- muiltilevel
+		- multiple
+		- hierachical
+		- hibrid
