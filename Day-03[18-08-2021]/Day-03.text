@@ -1,0 +1,101 @@
+Day-03[18-08-2021]:
+===================
+
+	Good Morning Sir/Mam
+
+	What is meant by MVC?
+	MVC => php,.net,java
+	M => Model [Database]
+	V => View [.html]
+	C => Controller [serverscripting .php, .java]
+
+	What is meant by MVT?
+	MVT => Django
+	M => Model
+	V => view[Controller] [urls.py,views.py]
+	T => Template[.html]
+
+
+	Sublime,pycharm
+
+	First Step:
+	===========
+	- Check whether the python is installed in your system or not?
+		-> cmd
+			=> python --version
+	- Check the pip is installed or not?
+		-> while using pip you are going to install third party packages
+		-> cmd
+			=> pip --version
+	- First we are going to install django
+		-> cmd
+			=> pip install django[latest version of django]
+		-> particular version
+			=> pip install django==3.0
+	- You need to check whether the django package is installed in your system or not?
+		-> cmd
+			=> django-admin --version
+
+	- Error messages like 
+		python is an internal or external command error
+			-> In environment variable you are not added path for python
+			python 3.7.5
+			python 3.0 => uninstall
+
+		pip is an internal or external command error
+			-> Pip is not set in environment variables
+			-> python => scripts/pip
+
+	How to create a Project?
+	========================
+	-> Select a fodleer where you need to create a project
+	-> Navigate to that path by using command prompt
+	-> Command for creating project
+		=> django-admin startproject "projectname"
+		=> django-admin startproject FirstProject
+	-> Just Naviage to inner of that projct where we can find manage.py file
+	-> Firstproject =>[Project Folder]
+		-> Firstproject => [Admin App]
+		-> manage.py => [Service file]
+	=> Manage.py:
+		-> services
+			=> runserver -> To execute our project
+			=> cretesuperuser -> To create admin user account
+			=> makemigrations,migrate -> To deploy tables to database
+			=> shell => To insert,update or delete opertaions we can use by using shell
+	=> Admin App[Name is similar to Our project folder]:
+	====================================================
+	- init -> The python interpreter will acts this file as python file [Temporary file]
+	- asgi -> Asychronous Gateway interface => Deployments
+	- wsgi -> Web Socket Gateway interface => Chat application [Sockets] => Deployment
+	- urls -> The url will be checked in that project or not 
+	- settings -> All configurations will be configured like[mail,external css,js,jquery,pdfs,accessing our own apps,Database]
+
+	=> Execution of Project:
+	=========================
+	-> You need to check the location where you can access manage.py file
+	-> To run our project we need to execute a command 
+		=> cmd
+			=> manage.py runserver
+				=> Default port number will be 8000
+			=> localhost:8000
+				=> It will displays the admin part[Static] file
+			=> manage.py runserver "yourport"
+			=> manage.py runserver 1234
+			=> localhost:1234
+			=> Server it will displays as 127.0.0.1 [default IP for localhost]
+		=> python manage.py runsesrver
+		=> At first first we can observer our sqlite file[database] file name as ddb.sqlite3
+	 
+
+
+
+
+
+
+
+
+
+
+
+
