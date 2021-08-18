@@ -13,4 +13,4 @@
 # Day-03[18-08-2021]:
   - Django Introduction,Advantages,Disadvantaages,Applications
   - Django Project Creation,Explained files included in that admin app,Running of Project
-  - Recording Video Link: [Day-03]() 
+  - Recording Video Link: [Day-03](https://transcripts.gotomeeting.com/#/s/c0f36af743bed9da1fac76fcc54bce76e670a331b9324d612762192b8cc159e0) 
