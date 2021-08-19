@@ -85,7 +85,7 @@ Day-03[18-08-2021]:
 			=> localhost:1234
 			=> Server it will displays as 127.0.0.1 [default IP for localhost]
 		=> python manage.py runsesrver
-		=> At first first we can observer our sqlite file[database] file name as ddb.sqlite3
+		=> At first we can observer our sqlite file[database] file name as db.sqlite3
 	 
 
 
