@@ -1,0 +1,50 @@
+
+Day Objectives
+===============
+ 1. App creation
+ 2. Configurations
+ 3. URL mapping
+
+ App creation
+ =============
+ 	python manage.py startapp "App_name"
+ 	python manage.py startapp First_App
+
+ Migrations
+ 	Which are used to handle all db conncetions/dp updations for a models
+
+ __inti__.py
+ 	It is an empty python file  that is used to consider that directory as a python pakcage
+
+admin.py
+	Using this file we will give permission to admin for accessing our models
+
+apps.py
+	Used to see the app information
+
+models.py
+	We will write all db conncetions
+
+tests.py
+	Used for testing purpose
+
+views.py
+	Which a controller between models and templates
+
+URL Mapping
+
+	URL: Uniform Resourse Locators
+
+	Mechanism used by browsers to retrieve any published resource on the web
+
+	-> Static url and dynamic url
+	-> interface between urls.py and views.py file
+	-> http response
+
+	1) Static url(a=30,b=40) fixed
+	2) Dynamic urls(user inputs)
+
+
+	HttpResponse
+		Which is an object of django it gives some text/information to users
+		
