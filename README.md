@@ -24,4 +24,4 @@
   - Applying css,js for text that is redirecting from HttpResponse
   - Templates folder creation and accessing .html files
   - Static folder Creation and accessing css,js and images for html file
-  - Recording Video Link: [Day-05]()
+  - Recording Video Link: [Day-05](https://transcripts.gotomeeting.com/#/s/4829756d2a0c45896fe92dc19daaa847c596763a71fbeccc1d3d8d6101a75466)
