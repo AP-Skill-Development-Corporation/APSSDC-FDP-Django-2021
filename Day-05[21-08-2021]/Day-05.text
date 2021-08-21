@@ -1,0 +1,102 @@
+Day-05[21-08-2021]:
+===================
+	Good Morning Sir/Mam
+
+	If you have any doubts please reply it in chatbox or else unmute and speak Sir/Mam
+
+	Concepts Covered:
+	=================
+	-> url => views
+	-> dynamic url mapping
+	-> HttpResponse from sample text with html tag
+
+	urls.py:
+	========
+	path('',views.functionname,name=""),
+
+	css style for that text
+
+	path('')
+	'' -> First Function that has to be executed
+		[index.php,index.html]
+	views.Functionname => second parameter
+	name -> This name is accesed in anchor tags
+	urlname -> first parameter
+
+	url => localhost:8000/raju/1A12
+
+			Your Name is: raju
+			Your Roll number is: 1A12
+
+	url => views
+		=> html tags
+		=> css styling
+		=> javscript
+
+	HttpResponse => Get info
+
+	html files
+	css styling
+	javascript
+
+	Templates:
+	==========
+		-> We need to create only .html files
+		-> To access that files we need to mention the path in render 
+
+	We need to create a folder in our app to access .html files 
+
+	url -> views -> templates
+	htm
+		=> views => tech
+					=> sample.html
+							=> This is sample Page	
+	render:
+	=======
+	return render(selfparameter,"where our .html file exist",dictionary)
+
+	css:
+	=====
+		- Internal
+		- Inline
+		- External
+	Inline:
+	=======
+		- It can be coded in inner of tags
+
+	Internal:
+	=========
+		- It can be written in inside of style tag
+
+	External:
+	=========
+		- It can be accessed from css folder
+
+	Javascript:
+	===========
+		- alert()
+
+	External CSS,Javascript,images etc.,
+	====================================
+
+	static => css,images,js,jquery,audio,video
+
+	To access external css,javascript,images we need to load those static file
+
+	DTL => Django Template Language
+	{% load static %}
+	{% variable_name %}
+
+	<link href="{% static 'css/filename.extension' %}">
+	<script src="{% static 'js/filename.extension' %}"></script>
+	<img src="{% static 'images/imagename.extension' %}">
+
+
+
+
+
+
+
+
+
+
