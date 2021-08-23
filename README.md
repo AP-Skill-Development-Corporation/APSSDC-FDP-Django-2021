@@ -19,3 +19,9 @@
   - Django App Creation,Explained files created in that app
   - Dynamic Url mapping with single parameter,two parameters and n number of parameters
   - Recording Video Link: [Day-04](https://transcripts.gotomeeting.com/#/s/d0d6030e4e3eb3afa25f2adb004917715bded932c185d42eaa7fce6b15f6a134)
+
+# Day-05[21-08-2021]:
+  - Applying css,js for text that is redirecting from HttpResponse
+  - Templates folder creation and accessing .html files
+  - Static folder Creation and accessing css,js and images for html file
+  - Recording Video Link: [Day-05](https://transcripts.gotomeeting.com/#/s/4829756d2a0c45896fe92dc19daaa847c596763a71fbeccc1d3d8d6101a75466)
