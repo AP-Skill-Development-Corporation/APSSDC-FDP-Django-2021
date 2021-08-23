@@ -25,3 +25,9 @@
   - Templates folder creation and accessing .html files
   - Static folder Creation and accessing css,js and images for html file
   - Recording Video Link: [Day-05](https://transcripts.gotomeeting.com/#/s/4829756d2a0c45896fe92dc19daaa847c596763a71fbeccc1d3d8d6101a75466)
+
+# Day-06[23-08-2021]:
+  - Url -> Views -> Templates
+  - Get and Post methods data rendering from templates to views and views to another template
+  - Bootstrap 4 Overview and using it in another project by using in online mode
+  - Revording Video Link: [Day-06](https://transcripts.gotomeeting.com/#/s/cb784a982838cd46920a1c4e4dd59c538c243a5ea6ee90d23a0023d27ac50b46)
