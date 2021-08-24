@@ -1,0 +1,15 @@
+Day objectives
+===============
+
+- Data rendering from HTML to views and then views to Html
+- Bootstrap
+
+HTTP methods:
+ 
+ - GET -- used to request data from sepcified 
+ - POST -- used to sending data to server
+ - csrf -- Cross - site Request Forgery
+
+ Bootstrap
+ ============
+ - Which is framewors it 
