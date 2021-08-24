@@ -30,4 +30,8 @@
   - Url -> Views -> Templates
   - Get and Post methods data rendering from templates to views and views to another template
   - Bootstrap 4 Overview and using it in another project by using in online mode
-  - Revording Video Link: [Day-06](https://transcripts.gotomeeting.com/#/s/cb784a982838cd46920a1c4e4dd59c538c243a5ea6ee90d23a0023d27ac50b46)
+  - Recording Video Link: [Day-06](https://transcripts.gotomeeting.com/#/s/cb784a982838cd46920a1c4e4dd59c538c243a5ea6ee90d23a0023d27ac50b46)
+
+# Day-07[24-08-2021]:
+  - Bootstrap 4 useage in offline mode,grid systems,registration form,cards,buttons,container etc.,
+  - Recording Video Link: [Day-07](https://transcripts.gotomeeting.com/#/s/362159e3220ef693decfc8732f3ececd818be7341cd37ba77d46584a94a416e5)
