@@ -35,3 +35,9 @@
 # Day-07[24-08-2021]:
   - Bootstrap 4 useage in offline mode,grid systems,registration form,cards,buttons,container etc.,
   - Recording Video Link: [Day-07](https://transcripts.gotomeeting.com/#/s/362159e3220ef693decfc8732f3ececd818be7341cd37ba77d46584a94a416e5)
+
+# Day-08[25-08-2021]:
+  - Admin User Creation,view,permissions and authorization access for users
+  - Model Creation,migrate and makemigrations useage
+  - CRUD Operations in shell
+  - Recording Video Link: [Day-08](https://transcripts.gotomeeting.com/#/s/f9c5326ebaf66b3aec33e72cbfe7dc038d9ab76328d245c0c6b99c9deb6ea807) 
