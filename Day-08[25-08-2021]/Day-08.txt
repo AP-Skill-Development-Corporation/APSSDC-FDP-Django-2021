@@ -1,0 +1,85 @@
+Day Objectives
+===================
+
+Admin User creation
+Modles 
+ORM
+
+DataBase: Which used to store data
+Ex: Mysql,mongodb etc....
+
+dbsqlite:(small data)
+
+CRUD: Create,Read,Update,Delete
+
+Admin User creation:
+=========================
+
+-->  python manage.py createsuperuser
+
+Models:
+===========
+	- model is a class
+	- this class will represents db table or collection in db
+	- in that class each and every field will acts like as a db columns
+	- to covert a models class to db table, we have to run two commands in cmd prompt
+		- 1. ''' python manage.py makemigrations '''
+		- after running this makemigrations commang, it creates an interface file
+		- by using this interface file we have to create db table
+		- for that we have to run another command
+			- '' python manage.py migrate ''
+
+		- To access user models inside admin portal , we have to register user model class inside admin.py
+
+ORM(Object Relational Mapping)
+===============
+	- in django we are using ORM for perform CRUD operations
+	- to practice ORM queries we have to open django shell by using
+		-- python manage.py shell
+		-- from Second_App.models import Register
+	-- Create
+		- SQL query is:
+			''' insert into register values(name,email)
+		- ORM query is:
+			reg = Register(name,email)
+			reg.save()
+
+	-- Read(View)
+		- SQL Query:
+			- select * from register 
+		- ORM Query
+			- data = Register.objects.all()
+			- iterate loop like this:
+				for row in data:
+					print(row)
+			-- Retrive a specific row
+				- to retrive a specific row, we have two different methods
+					- by using filter()
+					- filter() will accepts multiple records
+						- info = Register.objects.filter(name='Nandini')
+
+					- by using get()
+					- info = Register.objects.get(id=1)
+					- info = Register.objects.all().first()
+					- info = Register.objects.all().first()
+					- get() dont accept multiple reocrds
+
+	-- Update
+		- SQL Query
+		    - update register set email= '' /name=' '
+		- ORM Query
+			- info = Register.objects.filter(name)
+			- info.email = 'update record'
+			- info.save()
+			
+
+
+
+
+
+
+
+
+
+
+
