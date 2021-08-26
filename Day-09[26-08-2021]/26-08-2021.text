@@ -1,0 +1,57 @@
+Day-09[26-08-2021]:
+===================
+	Good Morning Sir/Mam
+
+	CRUD: -> shell
+
+	Create
+	Update
+	Read
+	Delete
+
+	Single User Deletion:
+	=====================
+	d = Register.objects.get(id=3)
+	d.delete()
+
+	All User:
+	=========
+	f = Register.objects.all()
+	f.delete()
+
+
+	url -> views
+	url -> views -> template
+	url -> views -> template -> views -> template
+	url -> views -> template -> views -> Model -> views  -> tempalte
+
+	CRUDapp:
+	========
+
+	In settings.py we need to configure the appname
+
+	Variable => {{}}
+
+	Conditional Statements:
+
+	{% if "" %}
+	{% elif %}
+	{% else %}
+	{% endif %}
+
+	Looping:
+
+	{% for i in dictioanry %}
+		{{i}}
+	{% enfor %}
+
+
+
+
+
+
+
+
+
+
+
