@@ -46,4 +46,4 @@
   - Delete Operation in Shell
   - CRUD Operation by using Basic Form Creation
   - Static Folder Access in outer of app
-  - Recording Video Link: [Day-09]() 
+  - Recording Video Link: [Day-09](https://transcripts.gotomeeting.com/#/s/71aef8ff0bd946f5238b84e1011927cd4ca1e431db262e695e993aa5782edde6) 
