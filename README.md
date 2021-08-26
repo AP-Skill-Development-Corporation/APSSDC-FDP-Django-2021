@@ -40,4 +40,10 @@
   - Admin User Creation,view,permissions and authorization access for users
   - Model Creation,migrate and makemigrations useage
   - CRUD Operations in shell
-  - Recording Video Link: [Day-08](https://transcripts.gotomeeting.com/#/s/f9c5326ebaf66b3aec33e72cbfe7dc038d9ab76328d245c0c6b99c9deb6ea807) 
+  - Recording Video Link: [Day-08](https://transcripts.gotomeeting.com/#/s/f9c5326ebaf66b3aec33e72cbfe7dc038d9ab76328d245c0c6b99c9deb6ea807)
+
+# Day-09[26-08-2021]:
+  - Delete Operation in Shell
+  - CRUD Operation by using Basic Form Creation
+  - Static Folder Access in outer of app
+  - Recording Video Link: [Day-09]() 
