@@ -51,4 +51,4 @@
 # Day-10[27-08-2021]:
   - Delete Operation by using Basic form
   - Forms.py Useage and CRUD Operations based on it
-  - Recording Video Link: [Day-10]()
+  - Recording Video Link: [Day-10](https://transcripts.gotomeeting.com/#/s/50f21e898aa98086f09dc313ff639ad44488d7be88c92311f3ec93b012d0b965)
