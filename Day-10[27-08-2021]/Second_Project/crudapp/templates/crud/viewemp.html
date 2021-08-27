@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Employee Details</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+	<div class="container mt-4">
+		<div class="card col-md-6 mx-auto">
+			<h3 class="bg-warning text-center p-2 text-light mt-2">Employee Details</h3>
+			<div class="card-body">
+				<h4>Employee Id: {{et.empid}}</h4>
+				<h4>Employee Name is: {{et.ename}}</h4>
+				<h4>Employee EmailId is: {{et.ememail}}</h4>
+			</div>
+			<a href="{% url 'shw' %}" class="btn btn-outline-info my-2">Back to List</a>
+		</div>
+	</div>
+</body>
+</html>

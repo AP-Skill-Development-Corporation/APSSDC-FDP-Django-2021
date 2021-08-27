@@ -1,0 +1,29 @@
+Day-10[27-08-2021]:
+===================
+	Good Morning Sir/Mam
+
+
+	url => views => template => views => Model => view => template
+	CRUD
+	basic form => data insert,update,view
+	delete
+	20 => 20 fields form
+
+	forms.py:
+	=========
+	model => form
+	[20 => 10 restrict]
+
+
+	url => views => forms[model] => template => views => model => view => template
+
+	form:
+	=> {{t.as_p}} => paragragh
+	=> {{t.as_ul}} => unorder list
+	=> {{t.as_table}} => table
+
+	.html => include,exclude
+	app => urls
+	Models => forms.py => crud
+	Login/Logout => page restictions
+	

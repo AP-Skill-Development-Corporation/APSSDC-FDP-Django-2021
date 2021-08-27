@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Delete Employee</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+	<div class="container mt-4">
+		<div class="row">
+			<div class="card col-md-4 mx-2 h-100" style="background-color: cadetblue">
+				<h3 class="bg-danger text-light p-2 mt-2 text-center">Add Employee</h3>
+				<form method="post">
+					{% csrf_token %}
+					{% for j in t %}
+						<div>{{j}}</div>
+					{% endfor %}
+					<div class="row">
+						<div class="col">
+							<input type="reset" value="Reset" class="btn btn-warning my-2 form-control">
+						</div>
+						<div class="col">
+							<input type="submit" value="Create Employee" class="btn btn-success my-2 form-control">
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="card col-md mx-2">
+				<h3 class="bg-info text-light text-center p-2 mt-2">Show All</h3>
+				<table class="table table-borderless table-hover text-center">
+					<tr class="bg-dark text-center text-light">
+						<th>Sno</th>
+						<th>Employee Id</th>
+						<th>Emploee Name</th>
+						<th>Actions</th>
+					</tr>
+					{% for j in u %}
+						<tr>
+							<td>{{forloop.counter}}</td>
+							<td>{{j.empid}}</td>
+							<td>{{j.ename}}</td>
+							<td>
+								<a href="{% url 'upde' j.id %}" class="btn btn-outline-info">Update</a>
+								<a href="{% url 'dlt' j.id %}" class="btn btn-outline-danger">Delete</a>
+							</td>
+						</tr>
+					{% endfor %}
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
