@@ -56,4 +56,4 @@
 # Day-11[28-08-2021]:
   - Url for each app useage
   - Include,extends and dtl language for different .html files access
-  - Recording Video Link: [Day-11]() 
+  - Recording Video Link: [Day-11](https://transcripts.gotomeeting.com/#/s/c936bdb046e3f481dbb41e204439e736294f26b526899ade7fd2a29cd61e6305) 
