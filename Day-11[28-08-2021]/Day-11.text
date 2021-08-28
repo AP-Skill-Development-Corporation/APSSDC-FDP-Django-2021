@@ -1,0 +1,46 @@
+Day-11[28-08-2021]:
+===================
+	Good Morning Sir/Mam
+
+Google:
+=======
+	Apps:
+	------
+	-> Gmail
+		-> services
+	-> Playstore
+		-> services
+	-> Maps
+		-> services
+
+Include in path:
+================
+	-> include('Appname.filename')
+	=> path('urlname',include('packgename.modulename')),
+
+
+Include/Exclude .html files:
+============================
+
+	Home.html:
+	==========
+		-> html skeleton
+		-> navbar,body,footer,sidebar
+	About.html:
+	===========
+		-> html skeleton
+		-> navbar,body,sidebar,footer
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

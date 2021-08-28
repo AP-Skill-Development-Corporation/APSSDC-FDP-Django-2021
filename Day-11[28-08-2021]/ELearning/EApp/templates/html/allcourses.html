@@ -1,0 +1,28 @@
+{% extends 'html/base.html' %}
+{% block title %}All Courses{% endblock %}
+{% block content %}
+<div class="container-fluid mt-4">
+	<div class="row mx-2">
+		<div class="card col-md-4 mx-2 shadow-lg mb-2" style="background-color: cadetblue">
+			<div class="card-body">
+				<h3 class="bg-warning text-light text-center p-2 border rounded border-success">Add Courses</h3>
+				<form>
+					<div class="row">
+						<div class="col">
+							<input type="reset" value="Reset" class="btn btn-primary form-control my-2">
+						</div>
+						<div class="col">
+							<input type="submit" value="Add Course" class="btn btn-success form-control my-2">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="card col-md mx-2">
+			<div class="card-body">
+				<h3 class="bg-secondary text-light border rounded p-2">All Courses List</h3>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
