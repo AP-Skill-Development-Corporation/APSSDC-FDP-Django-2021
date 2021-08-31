@@ -57,3 +57,8 @@
   - Url for each app useage
   - Include,extends and dtl language for different .html files access
   - Recording Video Link: [Day-11](https://transcripts.gotomeeting.com/#/s/c936bdb046e3f481dbb41e204439e736294f26b526899ade7fd2a29cd61e6305) 
+
+# Day-12[31-08-2021]:
+  - Courses Crud Operations
+  - SubCourse Model creation and forms for that model, Completed Creation of Sub courses
+  - Recording Video Link: [Day-12]()
