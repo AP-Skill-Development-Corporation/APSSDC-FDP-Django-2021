@@ -62,3 +62,7 @@
   - Courses Crud Operations
   - SubCourse Model creation and forms for that model, Completed Creation of Sub courses
   - Recording Video Link: [Day-12](https://transcripts.gotomeeting.com/#/s/9c8eadb1db0a5c2637b90bb4ab613c0f1ac800a7e19d3e0692c7aa310988e39b)
+# Day-13[01-09-2021]:
+  - Crud Operations for Subcourses
+  - Message Concepts for subcourses
+  - Recording Video Link: [Day-13]()
