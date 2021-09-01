@@ -65,4 +65,4 @@
 # Day-13[01-09-2021]:
   - Crud Operations for Subcourses
   - Message Concepts for subcourses
-  - Recording Video Link: [Day-13]()
+  - Recording Video Link: [Day-13](https://transcripts.gotomeeting.com/#/s/dcc5dece9c629a12f57b15d5dc6415fd89e01ed718a77efd0edc31b7e811f782)
