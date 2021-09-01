@@ -1,0 +1,22 @@
+Day-12[31-08-2021]:
+===================
+	Good Morning Sir/Mam
+
+	Messages:
+	=========
+	User => registration,updation,delete => CRUD
+
+	success,info,primary,warning,dark,secondary,danger
+
+	from django.contrib import messages
+
+
+	messages.success(request,"something message")
+
+	.html
+
+	{% if messages %}
+	{% for i in messages %}
+		
+	{% endfor %}
+	{% endif %}

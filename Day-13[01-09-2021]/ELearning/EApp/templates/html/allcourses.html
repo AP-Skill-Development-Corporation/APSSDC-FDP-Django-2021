@@ -1,0 +1,56 @@
+{% extends 'html/base.html' %}
+{% block title %}All Courses{% endblock %}
+{% block content %}
+<div class="container-fluid mt-4">
+{% if messages %}
+	{% for i in messages %}
+		<div class="alert alert-{{i.tags}} alert-dismissible">
+  			<button type="button" class="close" data-dismiss="alert">&times;</button>
+  			{{i}}
+		</div>
+	{% endfor %}
+{% endif %}
+	<div class="row mx-2">
+		<div class="card col-md-4 mx-2 shadow-lg mb-2 h-100" style="background-color: cadetblue">
+			<div class="card-body">
+				<h3 class="bg-warning text-light text-center p-2 border rounded border-success">Add Courses</h3>
+				<form method="POST">
+					{% csrf_token %}
+					{% for i in y %}
+					<div>{{i}}</div>
+					{% endfor %}
+					<div class="row">
+						<div class="col">
+							<input type="reset" value="Reset" class="btn btn-primary form-control my-2">
+						</div>
+						<div class="col">
+							<input type="submit" value="Add Course" class="btn btn-success form-control my-2">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="card col-md mx-2">
+			<div class="card-body">
+				<h3 class="bg-secondary text-light border rounded p-2">All Courses List</h3>
+				<table class="table table-borderless table-hover">
+					<tr class="bg-dark text-light">
+						<th>S.no</th>
+						<th>Course Name</th>
+						<th>Operations</th>
+					</tr>
+					{% for a in g %}
+					<tr>
+						<td>{{forloop.counter}}</td>
+						<td>{{a.coname}}</td>
+						<td>
+							<a href="{% url 'crup' a.id %}" class="btn btn-outline-primary mx-2">Update</a><a href="{% url 'crdl' a.id %}" class="btn btn-outline-danger mx-2">Delete</a>
+						</td>
+					</tr>
+					{% endfor %}
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

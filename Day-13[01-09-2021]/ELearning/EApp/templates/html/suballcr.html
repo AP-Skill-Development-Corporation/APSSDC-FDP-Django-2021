@@ -1,0 +1,52 @@
+{% extends 'html/base.html' %}
+{% block title %}Sub Courses List{% endblock %}
+{% block content %}
+<div class="container-fluid mt-4">
+	<div class="row mx-2">
+		<div class="card col col-md-4 mx-2">
+			<div class="card-body">
+				<h3 class="bg-warning text-light text-center p-2 border rounded">Add SubCourses</h3>
+				<form method="post">
+					{% csrf_token %}
+					{% for j in s %}
+					<div>{{j}}</div>
+					{% endfor %}
+					<div class="row">
+						<div class="col">
+							<input type="reset" name="Reset" class="btn btn-outline-danger form-control">
+						</div>
+						<div class="col">
+							<input type="submit" value="Add SubCourse" class="btn btn-outline-success form-control">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="card col col-md mx-2">
+			<div class="card-body">
+				<h3 class="bg-info text-light p-2 border rounded">Sub Courses List</h3>
+				<table class="table table-borderless">
+					<tr class="bg-dark text-light">
+						<th>s.no</th>
+						<th>Course Name</th>
+						<th>SubCourse Name</th>
+						<th>Price</th>
+						<th>Operations</th>
+					</tr>
+					{% for j in z %}
+					<tr>
+						<td>{{forloop.counter}}</td>
+						<td>{{j.0}}</td>
+						<td>{{j.1}}</td>
+						<td>{{j.2}}</td>
+						<td>
+							<a href="{% url 'sbup' j.4 %}" class="btn btn-outline-primary mx-2">Update</a><a href="{% url 'sbdl' j.4 %}" class="btn btn-outline-danger mx-2">Delete</a>
+						</td>
+					</tr>
+					{% endfor %}
+				</table>
+			</div>			
+		</div>
+	</div>
+</div>
+{% endblock %}
