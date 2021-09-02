@@ -1,0 +1,41 @@
+{% load static %}
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="{% url 'hm' %}">
+    <img src="{% static 'images/logo.png' %}" class="rounded-circle" alt="Logo" style="width:40px;"> E-Learning
+  </a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'hm' %}">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'abt' %}">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'cnt' %}">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'reg' %}">Registration</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'crs' %}">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'sbal' %}">Sub Courses</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto" style="margin-right: 120px">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'lg' %}">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>

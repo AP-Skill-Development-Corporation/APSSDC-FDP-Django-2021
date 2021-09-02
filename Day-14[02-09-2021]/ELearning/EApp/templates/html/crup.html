@@ -1,0 +1,25 @@
+{% extends 'html/base.html' %}
+{% block title %}Update Course{% endblock %}
+{% block content %}
+<div class="container mt-4">
+	<div class="card col-md-6 mx-auto">
+		<div class="card-body">
+			<h3 class="bg-info text-center text-light p-2">Update Course</h3>
+			<form method="post" enctype="multipart/form-data">
+				{% csrf_token %}
+				{% for j in d %}
+				<div>{{j}}</div>
+				{% endfor %}
+				<div class="row mt-2">
+					<div class="col">
+						<a href="{% url 'crs' %}" class="btn btn-outline-primary form-control">Cancel</a>
+					</div>
+					<div class="col">
+						<input type="submit" value="Update Course" class="btn btn-outline-success form-control">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}

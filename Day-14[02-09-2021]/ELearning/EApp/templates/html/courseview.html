@@ -1,0 +1,20 @@
+{% extends 'html/base.html' %}
+{% block title %}Course View{% endblock %}
+{% block content %}
+<div class="container mt-4">
+	<div class="card col-md-6 mx-auto shadow-lg">
+		<div class="card-body">
+			<h3>Course View</h3>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="{{f.cimage.url}}" class="m-2" width="100%">
+				</div>
+				<div class="col">
+					<h4>Course Name: {{f.coname}}</h4>
+				</div>
+			</div>
+			<a href="{% url 'crs' %}" class="btn btn-block btn-outline-warning">Back to Course List</a>
+		</div>
+	</div>
+</div>
+{% endblock %}

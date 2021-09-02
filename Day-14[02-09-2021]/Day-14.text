@@ -1,0 +1,12 @@
+Day-14[02-09-2021]:
+===================
+	Good Morning Sir/Mam
+
+	Image:
+	=======
+	Models.py => pillow has to be installed firt then the imagefiled will be accessed in models
+
+	pip install pillow => command to install pillow
+
+	
+

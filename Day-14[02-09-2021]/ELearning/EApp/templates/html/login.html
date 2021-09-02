@@ -1,0 +1,24 @@
+{% extends 'html/base.html' %}
+{% block title %} Login {% endblock %}
+{% block content %}
+<div class="container mt-4">
+	<div class="card col-md-5 mx-auto shadow-lg">
+		<div class="card-body">
+			<h3 class="bg-warning text-center text-light p-2 border rounded">Login</h3>
+			<form>
+				<input type="text" name="username" class="form-control my-2" placeholder="Enter username">
+				<input type="password" name="password" class="form-control my-2" placeholder="Enter password">
+				<div class="row">
+					<div class="col">
+						<input type="reset" value="Reset" class="btn btn-outline-danger form-control">
+					</div>
+					<div class="col">
+						<input type="submit" value="Login" class="btn btn-outline-success form-control">
+					</div>
+				</div>
+				<a href="{% url 'reg' %}" class="btn btn-block btn-outline-primary my-2">New User?</a>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
