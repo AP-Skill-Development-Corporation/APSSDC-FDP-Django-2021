@@ -73,4 +73,4 @@
 # Day-15[03-09-2021]:
   - Login and Logout by using Generics
   - Extra Profile fields model creation and profile update
-  - Recording Video Link: [Day-15]() 
+  - Recording Video Link: [Day-15](https://transcripts.gotomeeting.com/#/s/d858b81ff265efa5c37188aa94ce088f8618e90fd1e0fbeeceb1776f01dfd707) 
