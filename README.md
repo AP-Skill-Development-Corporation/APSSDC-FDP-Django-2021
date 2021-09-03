@@ -70,3 +70,7 @@
   - Image Concept for Courses
   - User Registration by using Default model[User]
   - Recording Video Link: [Day-14](https://transcripts.gotomeeting.com/#/s/61bdebac3ff1dbd978bec7ceb5f8d8b76d5cc5afc3aa8c003c3a27f1432c9e6b)
+# Day-15[03-09-2021]:
+  - Login and Logout by using Generics
+  - Extra Profile fields model creation and profile update
+  - Recording Video Link: [Day-15]() 
