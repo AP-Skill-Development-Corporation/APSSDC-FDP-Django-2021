@@ -1,0 +1,46 @@
+{% extends 'html/base.html' %}
+{% block title %}Course/SubCourse List{% endblock %}
+{% block content %}
+<div class="container-fluid mt-4">
+  <div class="row mx-1">
+    {% if user.is_authenticated %}
+    {% for x in rt %}
+    <div class="col col-md-3">
+      <div class="card shadow-lg my-2 h-80">
+        <img src="{{x.1.url}}" class="card-img-top" height="120px" alt="{{x.1}}">
+        <div class="card-body">
+          <h4 class="card-title">{{x.0}}</h4>
+          <p class="card-text">{{x.2}}</p>
+          <p>{{x.3}}</p>
+          <div>{{x.4}}</div>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    {% for j in h %}
+    <div class="col col-md-3">
+      <div class="card border border-primary shadow-lg my-2 h-80">
+        <img src="{{j.2.url}}" class="card-img-top" height="120px" alt="{{j.2}}">
+        <div class="card-body">
+          <h4 class="card-title">Course Name: <span class="text-success">{{j.1}}</span></h4>
+          <h5>Sub Course: <span class="text-info">{{j.3}}</span></h5>
+          <h5>Author: <span class="badge badge-warning">{{j.0}}</span></h5>
+          <h5>Price: Rs.<span class="badge badge-success">{{j.4}}/-</span></h5>
+          <div class="row">
+            <div class="col">
+              <a href="#" class="btn btn-outline-danger form-control">View More</a>
+            </div>
+            <div class="col">
+              <a href="#" class="btn btn-outline-secondary form-control">Subscribe</a>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
