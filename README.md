@@ -73,4 +73,11 @@
 # Day-15[03-09-2021]:
   - Login and Logout by using Generics
   - Extra Profile fields model creation and profile update
-  - Recording Video Link: [Day-15](https://transcripts.gotomeeting.com/#/s/d858b81ff265efa5c37188aa94ce088f8618e90fd1e0fbeeceb1776f01dfd707) 
+  - Recording Video Link: [Day-15](https://transcripts.gotomeeting.com/#/s/d858b81ff265efa5c37188aa94ce088f8618e90fd1e0fbeeceb1776f01dfd707)
+
+# Day-16[04-09-2021]:
+  - Change Password, Particular user course creation
+  - Accessing single Person Course and subcourses view
+  - Role Based Courses Views
+  - Recording Video Link: [Day-16-1](https://transcripts.gotomeeting.com/#/s/01fe6ef53c55ad78f822b7f893bac09f90ee2153b00219fd6d6ecd2e4ad8f929)
+  - [Day-16-2](https://transcripts.gotomeeting.com/#/s/d6e676ef7a48b4a4c87682c689f820ac71418ad59d87e7d540006d466cfbf1ca)
